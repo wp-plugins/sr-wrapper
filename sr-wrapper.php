@@ -3,7 +3,7 @@
 Plugin Name: SR-Wrapper Shortcode
 Plugin URI: http://scottierocket.com/wordpress-stuff/sr-childpages
 Description: This plugin allows page authors to easily demonstrate shortcodes in their posts and pages by wrapping them inside a shortcode that does -- well, nothing.  It's a NOOP.
-Version: 0.1
+Version: 0.2
 Author: Neil Mickelson
 Author URI: http://scottierocket.com
 */
@@ -23,6 +23,17 @@ Author URI: http://scottierocket.com
     You should have received a copy of the GNU General Public License
     along with this program; if not, write to the Free Software
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+*/
+
+/*  Version History:
+
+    0.2 - 05 May 2008
+    - First version to be hosted at wordpress.org/extend/plugins
+    - Confirmed compatible with WordPress 2.5.1
+    - Minor documentation updates; no functional changes
+    
+    0.1 - 24 Apr 2008
+    - Initial release
 */
 
 function sr_wrapper_handler( $atts, $content = null ) {

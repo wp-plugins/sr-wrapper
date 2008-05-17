@@ -1,9 +1,11 @@
-=== Plugin Name ===
+=== SR-Wrapper ===
 Contributors: mickelsn1
 Tags: shortcode, wrapper
 Requires at least: 2.5
-Tested up to: 2.5
-Stable tag: 0.1
+Tested up to: 2.5.1
+Stable tag: 0.2
+
+== Description ==
 
 This plugin allows page authors to easily demonstrate shortcodes in their posts and pages by wrapping them inside a shortcode that does -- well, nothing.  It's a NOOP.
 
@@ -11,11 +13,11 @@ This plugin allows page authors to easily demonstrate shortcodes in their posts 
 
 Just wrap the shortcode you're trying to demonstrate in enclosing [wrapper] shortcodes, like this:
 
-[wrapper][shortcode_example][/wrapper]
+>    [wrapper][shortcode_example][/wrapper]
 
 == Installation ==
 
-To start using the [wrapper] shortcode, install it by uploading the sr-wrapper folder to your wp-content/plugins directory and then activate the plugin through the 'Plugins' menu in WordPress.  Then just start using the shortcode in your pages!
+To start using the `[wrapper]` shortcode, install it by uploading the sr-wrapper folder to your `wp-content/plugins` directory and then activate the plugin through the 'Plugins' menu in WordPress.  Then just start using the shortcode in your pages!
 
 == Frequently Asked Questions ==
 
