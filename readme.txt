@@ -7,7 +7,7 @@ Stable tag: 0.2
 
 == Description ==
 
-This plugin allows page authors to easily demonstrate shortcodes in their posts and pages by wrapping them inside a shortcode that does -- well, nothing.  It's a NOOP.
+This plugin allows page authors to easily demonstrate shortcodes in their posts and pages by wrapping them inside a shortcode that does---well, nothing.  It's a NOOP.
 
 == Usage ==
 
